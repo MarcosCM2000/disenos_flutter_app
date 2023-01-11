@@ -12,9 +12,6 @@ class PageTitle extends StatelessWidget {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: const [
-            SizedBox(
-              height: 15,
-            ),
             Text(
               'Classify transaction',
               style: TextStyle(

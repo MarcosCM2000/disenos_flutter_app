@@ -21,6 +21,7 @@ class MyApp extends StatelessWidget {
         'scroll_design': ((_) => const ScrollScreen()),
         'home_screen': ((_) => const HomeScreen())
       },
+      theme: ThemeData.dark(),
       home: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: const [Text('Hola mundo'), Text('Hola mundo')],
